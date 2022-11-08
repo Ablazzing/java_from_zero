@@ -52,6 +52,13 @@ public class MathOperations {
 
         //Скобки
         int z = (2 + 2) * 2;
-        System.out.println(z);
+        //System.out.println(z);
+
+        //Создать переменные с ростом (!в метрах), весом.
+        //Произвести расчет индекса массы тела (вес) / (рост * рост) используя переменные, вывести на экран
+        double height = 2.03;
+        int weight = 100;
+        double index = weight / (height * height);
+        System.out.println(index);
     }
 }
