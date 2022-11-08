@@ -33,12 +33,12 @@ public class Primitives {
         //Сколько жителей в Монако? - int
 
         //Double - число с плавающей точкой, 64 bit
-        double myLiquid = 1.5;
+        double myBottle = 1.5;
         //Float - число с плавающей точкой, 32 bit
         float cola = 0.33F;
 
-        double doubleNumber = 1.12345678901234567890;
-        float floatNumber = 1.123456788901234567890F;
+        double doubleNumber = 1.1234567890123467890;
+        float floatNumber = 1.1234567890123467890F;
         System.out.println(doubleNumber);
         System.out.println(floatNumber);
     }
