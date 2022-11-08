@@ -22,8 +22,8 @@ public class Primitives {
         int minInteger = -2_147_483_648;
 
         //Long - целое число, которое состоит из 8 байт или из 64 битов
-        long maxLong = 9_223_372_036_854_775_807l;
-        long minLong = -9_223_372_036_854_775_808l;
+        long maxLong = 9_223_372_036_854_775_807L;
+        long minLong = -9_223_372_036_854_775_808L;
 
         //Какие типы данных вы бы использовали, для ответов на вопросы:
         //Сколько людей на планете? - long
@@ -31,5 +31,15 @@ public class Primitives {
         //Есть сигнал или нет? - boolean
         //Количество стран в мире? - byte - int
         //Сколько жителей в Монако? - int
+
+        //Double - число с плавающей точкой, 64 bit
+        double myLiquid = 1.5;
+        //Float - число с плавающей точкой, 32 bit
+        float cola = 0.33F;
+
+        double doubleNumber = 1.12345678901234567890;
+        float floatNumber = 1.123456788901234567890F;
+        System.out.println(doubleNumber);
+        System.out.println(floatNumber);
     }
 }
