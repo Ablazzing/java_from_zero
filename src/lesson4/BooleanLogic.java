@@ -11,7 +11,7 @@ public class BooleanLogic {
         boolean isBoughtMilk = true;
 
         //And - Логическое И, если два значения true, то тогда true, иначе false
-        boolean isBoughtMilkAndBread = isBoughtBread && isBoughtMilk;
+        //boolean isBoughtMilkAndBread = isBoughtBread && isBoughtMilk;
         //boolean isBoughtMilkAndBread = true && true;
         //boolean isBoughtMilkAndBread = true;
 
@@ -30,10 +30,12 @@ public class BooleanLogic {
 
         //Or - Логическое или, если хотя бы одно значение true, то тогда true, и только если все значения false,
         //то тогда false
-        boolean isBoughtMilkOrBread = true || true;
+        //boolean isBoughtMilkOrBread = true || true;
         //boolean isBoughtMilkOrBread = true;
+
         //boolean isBoughtMilkOrBread = true || false;
         //boolean isBoughtMilkOrBread = true;
+
         //boolean isBoughtMilkOrBread = false || false;
         //boolean isBoughtMilkOrBread = false;
 
