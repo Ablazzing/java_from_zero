@@ -18,6 +18,5 @@ public class ForI {
         for (int i = 0; i < numbers.length - 2; i++) {
             System.out.println(numbers[i]);
         }
-
     }
 }
