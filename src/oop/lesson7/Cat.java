@@ -5,6 +5,12 @@ public class Cat {
     double weight;
     String ownerName;
 
+    public Cat(String colorName, double weightCat, String owner) {
+      this.color = colorName;
+      this.weight = weightCat;
+      this.ownerName = owner;
+    }
+
     @Override
     public String toString() {
         return "Cat{" +
