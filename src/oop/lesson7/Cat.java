@@ -1,5 +1,7 @@
 package oop.lesson7;
 
+import java.util.Arrays;
+
 public class Cat {
     //Атрибут (свойство, поле)
     String color;
@@ -36,6 +38,11 @@ public class Cat {
         }
         return "Ничего";
     }
+
+    public void feed(String giver, String ...product) {
+        System.out.printf("Человек %s дает еду. Кот поел: %s", giver, Arrays.toString(product));
+    }
+
 
     //Перегрузка (overloading) метода hunt
     public void hunt(String timesOfDay) {

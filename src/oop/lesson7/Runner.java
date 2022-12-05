@@ -18,5 +18,6 @@ public class Runner {
         cat.hunt("Утро");
         System.out.println(resultHunt2);
 
+        cat.feed("Иван", "Рыбу", "Корм", "Вода");
     }
 }
