@@ -39,6 +39,7 @@ public class Cat {
         return "Ничего";
     }
 
+    //Varargs
     public void feed(String giver, String ...product) {
         System.out.printf("Человек %s дает еду. Кот поел: %s", giver, Arrays.toString(product));
     }
