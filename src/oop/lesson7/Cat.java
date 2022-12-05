@@ -4,9 +4,14 @@ import java.util.Arrays;
 
 public class Cat {
     //Атрибут (свойство, поле)
-    String color;
+    //public модификатор доступа (видно из всех классов)
+    public String color;
+
+    //default модификатор доступа (видно из классов с одинаковым пакетом)
     double weight;
-    String ownerName;
+
+    //private модификатор доступа (видно только внутри класса)
+    private String ownerName;
 
     //Конструктор
     public Cat(String colorName, double weightCat, String owner) {
