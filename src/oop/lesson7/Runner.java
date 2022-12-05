@@ -9,7 +9,10 @@ public class Runner {
 //        cat.color = "Red";
 //        System.out.println(cat.color);
 
+        //Создание метода
         cat.destroySofa("Петра");
+
+        //Перегрузка метода
         String animal = cat.hunt(false);
         String resultHunt2 = cat.hunt(false, false);
         cat.hunt("Утро");
