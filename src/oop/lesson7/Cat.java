@@ -13,10 +13,12 @@ public class Cat {
       this.ownerName = owner;
     }
 
+    //Метод
     public void destroySofa(String sofaOwner) {
         System.out.printf("Кот дерет диван %s\n", sofaOwner);
     }
 
+    //Перегрузка (overloading) метода hunt
     public String hunt(boolean isDay) {
         if (isDay) {
             return "Мышь";
@@ -24,6 +26,7 @@ public class Cat {
         return "Сова";
     }
 
+    //Перегрузка (overloading) метода hunt
     public String hunt(boolean isDay, boolean success) {
         if (success) {
             if (isDay) {
@@ -34,6 +37,7 @@ public class Cat {
         return "Ничего";
     }
 
+    //Перегрузка (overloading) метода hunt
     public void hunt(String timesOfDay) {
         if (timesOfDay.equals("Утро")) {
             System.out.println("Мышь");
