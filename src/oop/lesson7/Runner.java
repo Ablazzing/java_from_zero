@@ -11,6 +11,8 @@ public class Runner {
 
         cat.destroySofa("Петра");
         String animal = cat.hunt(false);
-        System.out.println(animal);
+        String resultHunt2 = cat.hunt(false, false);
+        cat.hunt("Утро");
+        System.out.println(resultHunt2);
     }
 }
