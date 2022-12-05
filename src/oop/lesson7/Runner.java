@@ -9,5 +9,7 @@ public class Runner {
 
         System.out.println(dog.getOwner());
 
+        Dog dog2 = new Dog();
+        System.out.println(dog2);
     }
 }
