@@ -7,6 +7,5 @@ public class RecursionEx {
         Recursion recursion = new Recursion();
         int result = recursion.sum(k);
         System.out.println(result);
-
     }
 }
