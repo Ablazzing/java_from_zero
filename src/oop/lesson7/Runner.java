@@ -10,5 +10,7 @@ public class Runner {
 //        System.out.println(cat.color);
 
         cat.destroySofa("Петра");
+        String animal = cat.hunt(false);
+        System.out.println(animal);
     }
 }

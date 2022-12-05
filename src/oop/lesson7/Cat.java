@@ -14,7 +14,14 @@ public class Cat {
     }
 
     public void destroySofa(String sofaOwner) {
-        System.out.printf("Кот дерет диван %s", sofaOwner);
+        System.out.printf("Кот дерет диван %s\n", sofaOwner);
+    }
+
+    public String hunt(boolean isDay) {
+        if (isDay) {
+            return "Мышь";
+        }
+        return "Сова";
     }
 
     @Override
