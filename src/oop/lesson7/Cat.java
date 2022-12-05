@@ -13,6 +13,10 @@ public class Cat {
       this.ownerName = owner;
     }
 
+    public void destroySofa(String sofaOwner) {
+        System.out.printf("Кот дерет диван %s", sofaOwner);
+    }
+
     @Override
     public String toString() {
         return "Cat{" +
