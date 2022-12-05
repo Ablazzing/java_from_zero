@@ -17,5 +17,6 @@ public class Runner {
         String resultHunt2 = cat.hunt(false, false);
         cat.hunt("Утро");
         System.out.println(resultHunt2);
+
     }
 }
