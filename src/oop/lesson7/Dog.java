@@ -1,10 +1,12 @@
 package oop.lesson7;
 
 public class Dog {
+    //Значение по умолчанию
     private String name = "Lord";
     private int weight = 50;
     private String owner = "Andrey";
 
+    //Блок инициализации
     {
         System.out.println("Собака создалась!");
     }
@@ -12,6 +14,7 @@ public class Dog {
     public Dog() {
     }
 
+    //Перегрузка конструктора
     public Dog(String name, int weight, String owner) {
         if (weight < 1) {
             this.weight = 5;
