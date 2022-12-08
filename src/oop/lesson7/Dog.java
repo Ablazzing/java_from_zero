@@ -1,5 +1,7 @@
 package oop.lesson7;
 
+import java.util.Arrays;
+
 public class Dog {
     //Значение по умолчанию
     private String name = "Lord";
@@ -23,6 +25,10 @@ public class Dog {
         }
         this.name = name;
         this.owner = owner;
+    }
+
+    public void feed(String giver, String ...product) {
+        System.out.printf("Человек %s дает еду. Собака поела: %s\n", giver, Arrays.toString(product));
     }
 
     public void setWeight(int newWeight) {

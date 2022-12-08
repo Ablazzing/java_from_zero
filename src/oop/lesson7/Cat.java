@@ -46,7 +46,7 @@ public class Cat {
 
     //Varargs
     public void feed(String giver, String ...product) {
-        System.out.printf("Человек %s дает еду. Кот поел: %s", giver, Arrays.toString(product));
+        System.out.printf("Человек %s дает еду. Кот поел: %s\n", giver, Arrays.toString(product));
     }
 
 

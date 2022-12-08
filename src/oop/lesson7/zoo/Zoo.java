@@ -1,10 +1,23 @@
 package oop.lesson7.zoo;
 
 import oop.lesson7.Cat;
+import oop.lesson7.Dog;
 
 public class Zoo {
-    public static void main(String[] args) {
-        Cat cat = new Cat("black", 20, "Ivan");
-        System.out.println(cat.color);
+    private Cat cat;
+    private Dog dog;
+
+    public Zoo(Cat cat, Dog dog) {
+        if (cat == null) {
+            this.cat = new Cat("black", 15, "Petr");
+        } else {
+            this.cat = cat;
+        }
+        this.dog = dog;
+    }
+
+    public void feed() {
+        cat.feed("Yuri", "Рыбу");
+        dog.feed("Yuri", "Кости");
     }
 }

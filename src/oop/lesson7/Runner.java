@@ -1,15 +1,13 @@
 package oop.lesson7;
 
+import oop.lesson7.zoo.Zoo;
+
 public class Runner {
     public static void main(String[] args) {
         Dog dog = new Dog("Muhtar", -10, "Petr");
-        System.out.println(dog);
-        dog.setWeight(-1);
-        System.out.println(dog);
+        Cat cat = new Cat("black", 10, "Yuri");
+        Zoo zoo = new Zoo(cat, dog);
+        zoo.feed();
 
-        System.out.println(dog.getOwner());
-
-        Dog dog2 = new Dog();
-        System.out.println(dog2);
     }
 }
