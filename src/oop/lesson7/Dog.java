@@ -5,6 +5,10 @@ public class Dog {
     private int weight = 50;
     private String owner = "Andrey";
 
+    {
+        System.out.println("Собака создалась!");
+    }
+
     public Dog() {
     }
 
