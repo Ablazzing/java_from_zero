@@ -4,6 +4,7 @@ public class Car {
     private String brand;
     //Статический атрибут
     public static int countCars = 0;
+    public final static String BMW_INFO = "Bmw - немецкая компания, основанная 1928";
 
     public Car(String brand) {
         this.brand = brand;

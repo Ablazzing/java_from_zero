@@ -7,5 +7,6 @@ public class Runner {
         System.out.println("Количество машин:" + Car.countCars);
 
         Car.printBrands();
+        System.out.println(Car.BMW_INFO);
     }
 }
