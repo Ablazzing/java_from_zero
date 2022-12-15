@@ -4,6 +4,8 @@ public class Runner {
     public static void main(String[] args) {
         Car audi = new Car("audi");
         Car bmw = new Car("bmw");
-        System.out.println(Car.countCars);
+        System.out.println("Количество машин:" + Car.countCars);
+
+
     }
 }
