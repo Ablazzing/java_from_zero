@@ -9,5 +9,7 @@ public class Runner {
 
         Car.BRAND_DESCRIPTIONS[0] = "Любое значение";
         System.out.println(Arrays.toString(Car.BRAND_DESCRIPTIONS));
+
+
     }
 }
