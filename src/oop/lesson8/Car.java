@@ -14,4 +14,7 @@ public class Car {
         return countCars;
     }
 
+    public static void printBrands() {
+        System.out.println("Перечень доступных брендов: bmw, audi, kia");
+    }
 }

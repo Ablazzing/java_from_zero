@@ -6,6 +6,6 @@ public class Runner {
         Car bmw = new Car("bmw");
         System.out.println("Количество машин:" + Car.countCars);
 
-
+        Car.printBrands();
     }
 }
