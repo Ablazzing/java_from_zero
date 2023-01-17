@@ -1,4 +1,4 @@
-package oop.lesson8;
+package oop.basics.lesson8;
 
 import java.util.Arrays;
 

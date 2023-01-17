@@ -1,4 +1,4 @@
-package oop.lesson7.practice;
+package oop.basics.lesson7.practice;
 
 public class Practice {
     public static void main(String[] args) {

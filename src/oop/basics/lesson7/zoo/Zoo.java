@@ -1,7 +1,7 @@
-package oop.lesson7.zoo;
+package oop.basics.lesson7.zoo;
 
-import oop.lesson7.Cat;
-import oop.lesson7.Dog;
+import oop.basics.lesson7.Cat;
+import oop.basics.lesson7.Dog;
 
 public class Zoo {
     private Cat cat;

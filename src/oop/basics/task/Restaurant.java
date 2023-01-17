@@ -1,4 +1,4 @@
-package oop.task;
+package oop.basics.task;
 
 public class Restaurant {
     private static int sausageCount = 0;

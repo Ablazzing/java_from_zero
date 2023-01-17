@@ -1,6 +1,6 @@
-package oop.lesson7;
+package oop.basics.lesson7;
 
-import oop.lesson7.zoo.Zoo;
+import oop.basics.lesson7.zoo.Zoo;
 
 public class Runner {
     public static void main(String[] args) {

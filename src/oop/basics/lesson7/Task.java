@@ -1,6 +1,6 @@
-package oop.lesson7;
+package oop.basics.lesson7;
 
-import oop.lesson7.book.Book;
+import oop.basics.lesson7.book.Book;
 
 public class Task {
     public static void main(String[] args) {

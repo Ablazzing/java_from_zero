@@ -1,4 +1,4 @@
-package oop.lesson7.recursion;
+package oop.basics.lesson7.recursion;
 
 public class RecursionEx {
     public static void main(String[] args) {

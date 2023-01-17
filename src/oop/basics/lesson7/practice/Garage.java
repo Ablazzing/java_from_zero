@@ -1,4 +1,4 @@
-package oop.lesson7.practice;
+package oop.basics.lesson7.practice;
 
 public class Garage {
     private Car car1;
