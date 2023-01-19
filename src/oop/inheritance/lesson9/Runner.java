@@ -2,22 +2,15 @@ package oop.inheritance.lesson9;
 
 public class Runner {
     public static void main(String[] args) {
-        //Отец
-        FatherLord fatherLord = new FatherLord();
-        fatherLord.sayOnFrench();
+        Dog dog = new Dog();
+        dog.bark();
 
-        //Сын
-        SonLord sonLord = new SonLord();
-        sonLord.sayOnFrench();
+        //Пудель
+        Poodle poodle = new Poodle();
+        poodle.bark();
 
-        //Дочь
-        FatherLord daughterLord = new DaughterLord();
-        daughterLord.sayOnFrench();
-
-        //Второй сын
-        FatherLord sonLord2 = new SonLord();
-
-        //Вся семья
-        FatherLord[] family = {fatherLord, sonLord, daughterLord, sonLord2};
+        //Овчарка
+        Shepherd shepherd = new Shepherd();
+        shepherd.bark();
     }
 }
