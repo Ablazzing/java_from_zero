@@ -5,4 +5,9 @@ public class Shepherd extends Dog {
     public void run() {
         System.out.println("Собака бежит быстро");
     }
+
+    @Override
+    public void breath() {
+        System.out.println("Овчарка дышит");
+    }
 }

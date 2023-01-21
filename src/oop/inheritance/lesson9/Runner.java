@@ -11,5 +11,6 @@ public class Runner {
         Shepherd shepherd = new Shepherd();
         shepherd.bark();
         shepherd.run();
+        shepherd.breath();
     }
 }

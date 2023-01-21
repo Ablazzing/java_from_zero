@@ -1,6 +1,6 @@
 package oop.inheritance.lesson9;
 
-public abstract class Dog {
+public abstract class Dog extends Alive {
     public int countLegs = 4;
 
     public void bark() {
