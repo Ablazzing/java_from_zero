@@ -1,6 +1,11 @@
 package oop.inheritance.lesson9;
 
 public class Shepherd extends Dog {
+
+    public Shepherd() {
+        super(28);
+    }
+
     @Override
     public void run() {
         System.out.println("Собака бежит быстро");
