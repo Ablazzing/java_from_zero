@@ -6,4 +6,6 @@ public abstract class Dog {
     public void bark() {
         System.out.println("Собака громко лает");
     }
+
+    public abstract void run();
 }

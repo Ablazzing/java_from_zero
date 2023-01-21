@@ -5,9 +5,11 @@ public class Runner {
         //Пудель
         Poodle poodle = new Poodle();
         poodle.bark();
+        poodle.run();
 
         //Овчарка
         Shepherd shepherd = new Shepherd();
         shepherd.bark();
+        shepherd.run();
     }
 }
