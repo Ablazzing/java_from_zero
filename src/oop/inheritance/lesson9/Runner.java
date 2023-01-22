@@ -24,7 +24,6 @@ public class Runner {
         System.out.println(shepherd.countTeeth);
         System.out.println("_______________\n");
 
-
         System.out.println("Инфо о терьере");
         //Терьер
         Terier terier = new Terier(40);

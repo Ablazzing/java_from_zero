@@ -3,8 +3,10 @@ package oop.inheritance.lesson9.dogs;
 import oop.inheritance.lesson9.Alive;
 
 public abstract class Dog extends Alive {
-    protected int countLegs = 4;
+    protected final int countLegs = 4;
     public int countTeeth;
+
+    public static final String LATIN_NAME = "Canis familiaris";
 
     public Dog(int countTeeth) {
         this.countTeeth = countTeeth;
