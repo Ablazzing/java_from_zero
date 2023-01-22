@@ -8,6 +8,10 @@ public abstract class Dog extends Alive {
         this.countTeeth = countTeeth;
     }
 
+    public void beAngry() {
+        System.out.println("Собака рычит");
+    }
+
     public void bark() {
         System.out.println("Собака громко лает");
     }

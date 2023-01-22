@@ -20,4 +20,16 @@ public class Shepherd extends Dog {
     public void bark() {
         System.out.println("Овчарка громко лает");
     }
+
+    @Override
+    public void beAngry() {
+        //Атрибут из класса родителя
+        //Текст из своего метода
+        //вызывал метод родителя
+        //Текст из своего метода
+        System.out.println("Собака стоит на " + super.countLegs + ".");
+        System.out.println("Овчарка увидела чужого человека");
+        super.beAngry();
+        System.out.println("Овчарка успокоилась");
+    }
 }
