@@ -8,6 +8,7 @@ public class Runner {
         poodle.bark();
         poodle.run();
         System.out.println(poodle.countTeeth);
+        System.out.println("_______________\n");
 
         System.out.println("Инфо об овчарке");
         //Овчарка
@@ -16,9 +17,11 @@ public class Runner {
         shepherd.run();
         shepherd.breath();
         System.out.println(shepherd.countTeeth);
+        System.out.println("_______________\n");
 
         System.out.println("Инфо о терьере");
         Terier terier = new Terier(40);
         System.out.println(terier.countTeeth);
+        System.out.println("_______________\n");
     }
 }

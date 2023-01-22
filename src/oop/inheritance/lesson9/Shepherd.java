@@ -15,4 +15,9 @@ public class Shepherd extends Dog {
     public void breath() {
         System.out.println("Овчарка дышит");
     }
+
+    @Override
+    public void bark() {
+        System.out.println("Овчарка громко лает");
+    }
 }
