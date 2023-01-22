@@ -18,5 +18,9 @@ public abstract class Dog extends Alive {
         System.out.println("Собака громко лает");
     }
 
+    public final void eat() {
+        System.out.println("Собака ест");
+    }
+
     public abstract void run();
 }
