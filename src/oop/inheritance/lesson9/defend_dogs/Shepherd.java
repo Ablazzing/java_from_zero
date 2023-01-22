@@ -1,4 +1,6 @@
-package oop.inheritance.lesson9;
+package oop.inheritance.lesson9.defend_dogs;
+
+import oop.inheritance.lesson9.dogs.Dog;
 
 public class Shepherd extends Dog {
 

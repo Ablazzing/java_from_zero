@@ -1,7 +1,9 @@
-package oop.inheritance.lesson9;
+package oop.inheritance.lesson9.dogs;
+
+import oop.inheritance.lesson9.Alive;
 
 public abstract class Dog extends Alive {
-    public int countLegs = 4;
+    protected int countLegs = 4;
     public int countTeeth;
 
     public Dog(int countTeeth) {

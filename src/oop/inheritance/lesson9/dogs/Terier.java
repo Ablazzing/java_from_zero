@@ -1,4 +1,4 @@
-package oop.inheritance.lesson9;
+package oop.inheritance.lesson9.dogs;
 
 public class Terier extends Dog {
 
