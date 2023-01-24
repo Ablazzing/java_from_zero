@@ -1,4 +1,4 @@
-package oop.inheritance.lesson9.task;
+package oop.inheritance.lesson9.task1;
 
 public class Secretary extends OfficeWorker {
 

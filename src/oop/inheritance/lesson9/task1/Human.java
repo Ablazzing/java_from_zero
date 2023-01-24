@@ -1,4 +1,4 @@
-package oop.inheritance.lesson9.task;
+package oop.inheritance.lesson9.task1;
 
 //Каждый человек умеет получать зарплату(характерную для его профессии).
 //У каждого человека есть пол.
