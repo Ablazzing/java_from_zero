@@ -2,7 +2,12 @@ package oop.polymorphism;
 
 public class Runner {
     public static void main(String[] args) {
+        //При создании экземпляра класса Dog, мы можем записать это в переменную типа Dog и всех наследников
         Dog dog = new Dog();
+        //В примере ниже, мы так же создали собаку, но переменная dog имеет тип Animal
+        //Поэтому будут доступны все методы и атрибуты Animal
+        //Animal dog = new Dog();
+
         Cat cat = new Cat();
 
         Animal[] animals = new Animal[2];
