@@ -1,4 +1,4 @@
-package oop.polymorphism;
+package oop.polymorphism.inheritance;
 
 public class Dog extends Animal {
     @Override
