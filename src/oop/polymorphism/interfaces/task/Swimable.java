@@ -1,6 +1,5 @@
-package oop.polymorphism.interfaces;
+package oop.polymorphism.interfaces.task;
 
 public interface Swimable {
-
     void swim();
 }
