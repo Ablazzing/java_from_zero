@@ -1,6 +1,6 @@
-package oop.class_object.equals_and_hashcode;
+package oop.class_object.equals;
 
-public class Example {
+public class EqualsExample {
     public static void main(String[] args) {
         Child child1 = new Child("Киров Сергей", 2019);
         Child child2 = new Child("Петров Иван", 2019);

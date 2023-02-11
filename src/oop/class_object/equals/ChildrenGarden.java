@@ -1,4 +1,4 @@
-package oop.class_object.equals_and_hashcode;
+package oop.class_object.equals;
 
 public class ChildrenGarden {
     private Child[] children;
