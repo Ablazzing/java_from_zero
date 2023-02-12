@@ -1,5 +1,6 @@
 package oop.polymorphism.inheritance;
 
+
 public class Runner {
     public static void main(String[] args) {
         //При создании экземпляра класса Dog, мы можем записать это в переменную типа Dog и всех наследников
@@ -15,6 +16,8 @@ public class Runner {
         animals[1] = cat;
 
         feedTwoAnimals(dog, cat);
+
+
     }
 
     public static void feedTwoAnimals(Animal animal1, Animal animal2) {
