@@ -4,24 +4,25 @@ public class Runner {
     public static void main(String[] args) {
         Alive dog = new Alive() {
             @Override
-            public void breath() {
-                System.out.println("Собака дышит");
+            public void eat() {
+                System.out.println("Dog eat");
             }
 
+            @Override
+            public void breath() {
+                System.out.println("Dog breath");
+            }
+        };
+        dog.breath();
+        dog.eat();
+
+        Animal cat = new Animal() {
             @Override
             public void eat() {
-                System.out.println("Собака ест");
+                System.out.println("Кошка ест");
             }
         };
-        dog.eat();
-        dog.breath();
+        cat.eat();
 
-        Animal duck = new Animal() {
-            @Override
-            public void move() {
-                System.out.println("Утка летит");
-            }
-        };
-        duck.move();
     }
 }
